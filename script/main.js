@@ -1,8 +1,8 @@
 const text = document.getElementById("text");
-sleep(10000)
+
 const prog = "We Love Programming!";
 let idx = 1;
-
+sleep(10000)
 setInterval(writeText, 1000);
 
 function writeText() {
