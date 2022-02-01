@@ -2,7 +2,7 @@ const text = document.getElementById("text");
 const prog = "We Love Programming!";
 let idx = 1;
 
-setInterval(writeText, 100);
+setInterval(writeText, 1000);
 
 function writeText() {
     text.innerText = prog.slice(0, idx)
