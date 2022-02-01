@@ -1,6 +1,6 @@
 const text = document.getElementById("text");
 
-const prog = "I know you are not very much into birthday celebration, I just wanted to do something. To be honest I did not do much. I jhope you have a better year ahead...  ";
+const prog = "I know you are ...  ";
 let idx = 1;
 setInterval(writeText, 150);
 
@@ -13,11 +13,6 @@ function writeText() {
       idx = 1;
     }
 	
-function sleep(miliseconds) {
-   var currentTime = new Date().getTime();
 
-   while (currentTime + miliseconds >= new Date().getTime()) {
-   }
-}	
 
 }
