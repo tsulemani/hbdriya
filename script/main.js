@@ -2,7 +2,7 @@ const text = document.getElementById("text");
 
 const prog = "I know you are not very much into birthday celebration, I just wanted to do something. To be honest I did not do much. I jhope you have a better year ahead...  ";
 let idx = 1;
-sleep(99000)
+sleep(9000)
 setInterval(writeText, 150);
 
 function writeText() {
