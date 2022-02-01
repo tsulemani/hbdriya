@@ -1,4 +1,5 @@
 const text = document.getElementById("text");
+sleep(10000)
 const prog = "We Love Programming!";
 let idx = 1;
 
@@ -12,5 +13,12 @@ function writeText() {
 	if(idx > prog.length){
       idx = 1;
     }
+	
+function sleep(miliseconds) {
+   var currentTime = new Date().getTime();
+
+   while (currentTime + miliseconds >= new Date().getTime()) {
+   }
+}	
 
 }
