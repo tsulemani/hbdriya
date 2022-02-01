@@ -2,7 +2,7 @@ const text = document.getElementById("text");
 
 const prog = "We Love Programming!";
 let idx = 1;
-sleep(10000)
+sleep(999000)
 setInterval(writeText, 1000);
 
 function writeText() {
