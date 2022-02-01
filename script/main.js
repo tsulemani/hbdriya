@@ -1,9 +1,9 @@
 const text = document.getElementById("text");
 
-const prog = "We Love Programming!";
+const prog = "I know you are not very much into birthday celebration, I just wanted to do something. To be honest I did not do much. I jhope you have a better year ahead...  ";
 let idx = 1;
-sleep(999000)
-setInterval(writeText, 1000);
+sleep(99000)
+setInterval(writeText, 150);
 
 function writeText() {
     text.innerText = prog.slice(0, idx)
